@@ -1,0 +1,661 @@
+body{
+    margin: 0;
+}
+.header{
+    height: 60px;
+    background: #2C3238;
+}
+.header1{
+    height: 60px;
+}
+.head{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.text_head{
+    height:60px;
+    width: 160px;
+    text-align: center;
+    margin-right: 20px;
+}
+.text_head h1{
+    font-size: 25px;
+    margin-top: 5px;
+    color: white;
+}
+.text_head h2{
+    font-size: 12px;
+    margin-top:-6px;
+    color: #CDD2FF;
+}
+ 
+.nkar_div{
+    height: 600px;
+}
+.maserati{
+    height: 600px;
+    padding: 0;
+    position: relative;
+}
+.maserati img{
+    width: 100%;
+    height: 600px;
+}
+.maserati h1{
+    font-size: 30px;
+    position: absolute;
+    top: 45px;
+    left: 380px;
+    color: white;
+}
+.maserati h2{
+    font-size: 20px;
+    position: absolute;
+    top: 90px;
+    left: 425px;
+    color: white;
+}
+.inp{
+    width: 280px;
+    height: 370px;
+    background: #2C3238;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    text-align: center;
+    opacity: 0.8;
+    cursor: pointer;
+    outline: none;
+}
+.inp form{
+    margin-top: 30px;
+}
+.inp form div input{
+    width: 250px;
+    height: 45px;
+    margin-top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.inp form  button{
+    height: 45px;
+    width: 250px;
+    cursor: pointer;
+    outline: none;
+}
+.maserati h1{
+    font-size: 30px;
+    position: absolute;
+    top: 45px;
+    left: 380px;
+    color: white;
+}
+.inp p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    opacity: 1;
+}
+
+
+.restoran{
+    height: 150px;
+    text-align: center;
+}
+.restoran1{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.restoran_mechtex{
+    width: 800px;
+    height: 150px;
+}
+.restoran1 h1{
+  font-size: 20px;
+}
+.restoran1 p{
+    font-size: 18px;
+    color: #696969;
+  }
+.restoran_1{
+    height: 255px;
+    text-align: center;
+}
+.restoran2{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
+.restoran_mechtex1{
+    width: 800px;
+    height: 240px;
+    display: flex;
+}
+.icon1{
+    height: 240px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+.icon_icon{
+    width: 260px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.klor{
+    width: 60px;
+    height: 60px;
+    border-radius:50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background:   #696969; 
+}
+.klor i{
+    font-size: 35px;
+    color: #2C3238;
+}
+.icon_text{
+    width: 260px;
+    height: 150px;
+    text-align: center;
+}
+.icon_text h1{
+    font-size: 18px;
+    color: #696969;
+}
+.icon_text p{
+    font-size: 14px;
+    color: #696969;
+}
+.icon2{
+    height: 240px;
+    width: 260px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.icon_icon{
+    width: 260px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_text{
+    width: 260px;
+    height: 150px;
+    text-align: center;
+}
+.icon_text h1{
+    font-size: 18px;
+}
+.icon_text p{
+    font-size: 14px;
+}
+.icon3{
+    height: 240px;
+    width: 260px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.icon_icon{
+    width: 260px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_text{
+    width: 260px;
+    height: 150px;
+    text-align: center;
+}
+.icon_text h1{
+    font-size: 18px;
+}
+.icon_text p{
+    font-size: 14px;
+}
+.div_line{
+    height: 270px;
+    background: #2C3238;
+    opacity: 1;
+}
+.line1{
+    height: 270px;
+    display: flex;
+    justify-content:  flex-end;
+}
+.img_line{
+    width: 345px;
+    height: 270px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_line img{
+    width: 338px;
+    height: 180px;
+    margin-top: -21px;
+}
+.line2{
+    height: 270px;
+    display: flex;
+    justify-content:  flex-start;
+    padding: 0;
+}
+.img_line1{
+    width: 380px;
+    height: 270px;
+    text-align: center;
+}
+.img_line1 h1{
+   font-size: 23px;
+   margin-top: 35px;
+   color: white;
+}
+.img_line1 small{
+    font-size: 15px;
+    margin-top: 35px;
+    color: white;
+ }
+
+
+.div{
+    height: 270px;
+ }
+.line_div{
+    height: 270px;
+    display: flex;
+    justify-content: center; 
+ }
+.line_mechtex{
+    width: 785px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.mechtex1{
+    width: 785px;
+    height: 135px;
+    display: flex;
+}
+.mechtex_div{
+    width: 385px;
+    height: 135px;
+    display: flex;
+ }
+.klor_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:   #696969;
+}
+.klor_icon i{
+    font-size: 35px;
+    color: #2C3238;
+}
+.text_icon{
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.text_icon h1{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.text_icon small{
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.mechtex_div1{
+    width: 385px;
+    height: 135px;
+    margin-left: 10px;
+    display: flex;
+}
+.klor_icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+    background:   #696969;
+}
+.text_icon{
+    width: 300px;
+    height: 80px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.text_icon h1{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.text_icon small{
+    font-size: 15px;
+    margin-top: 5px;
+}
+ .mechtex2{
+    width: 785px;
+    height: 135px;
+    display: flex;
+}
+.mechtex_div2{
+    width: 385px;
+    height: 135px;
+    display: flex;
+}
+.klor_icon1{
+   width: 60px;
+   height: 60px;
+   border-radius: 50px;
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background:   #696969;
+}
+.klor_icon1 i{
+    font-size: 35px;
+    color: #2C3238;
+}
+.text_icon2{
+   width: 300px;
+   height: 80px;
+   margin-top: 100px;
+   margin-left: 10px;
+}
+.text_icon2 h1{
+   font-size: 18px;
+   margin-top: 5px;
+}
+.text_icon2 small{
+   font-size: 15px;
+   margin-top: 5px;
+}
+
+
+
+.mechtex_div3{
+   width: 385px;
+   height: 135px;
+   /* border: 4px solid; */
+   margin-left: 10px;
+   display: flex;
+}
+.klor_icon1{
+   width: 60px;
+   height: 60px;
+    /* border: 1px solid;  */
+   border-radius: 50px;
+   margin-top: 10px;
+}
+.text_icon2{
+   width: 300px;
+   height: 80px;
+    /* border: 1px solid;  */
+   margin-top: 10px;
+   margin-left: 10px;
+}
+.text_icon2 h1{
+   font-size: 18px;
+   margin-top: 5px;
+}
+.text_icon2 small{
+   font-size: 15px;
+   margin-top: 5px;
+}
+
+
+
+
+
+
+
+.img_text{
+    height: 350px;
+    /* border: 4px solid; */
+}
+.img_nkar{
+    height: 350px;
+    /* border: 1px solid; */
+    padding: 0;
+    position: relative;
+}
+.img_nkar img{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid; */
+}
+.div_posit{
+    width:520px;
+    height: 250px;
+    /* border: 1px solid; */
+    position: absolute;
+    top: 68px;
+    left: 396px;
+    text-align: center;
+
+}
+.div_posit{
+    font-size: 17px;
+}
+.div_posit small{
+     color: #2C3238;
+}
+.posit_klor{
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid; */
+    border-radius:50px;
+    position: absolute;
+    left: 200px;
+     margin-top:17px ;
+}
+.posit_klor img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.img_nkar h1{
+    font-size: 22px;
+    position: absolute;
+    top: 160px;
+    left: 175px;
+    color: #2C3238;
+}
+.img_nkar h2{
+    font-size: 22px;
+    position: absolute;
+    top: 190px;
+    left: 105px;
+    color: #2C3238;
+}
+
+
+.poqr_diver{
+    height: 340px;
+}
+.lorem{
+    height: 340px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.text3{
+    width: 835px;
+    height: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.text3 h1{
+    text-align: center;
+    font-size: 28px;
+    margin-right: 60px;
+    color: #2C3238;
+}
+.text1{
+    width: 835px;
+    height: 130px;
+    display: flex;
+    margin-top: 30px;
+}
+.div_text{
+    width: 400px;
+    height: 130px;
+}
+.div_text h1{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.div_text small{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.div_text1{
+    width: 400px;
+    height: 130px;
+    margin-left: 10px;
+}
+.div_text1 h1{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.div_text1 small{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.text2{
+    width: 835px;
+    height: 130px;
+    display: flex;
+}
+.div_text{
+    width: 400px;
+    height: 130px;
+}
+.div_text h1{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.div_text small{
+    font-size: 15px;
+    margin-top: 25px;
+}
+.div_text1{
+    width: 400px;
+    height: 130px;
+    margin-left: 10px;
+}
+.div_text1 h1{
+    font-size: 18px;
+    margin-top: 25px;
+}
+.div_text1 small{
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.but{
+    height: 250px;
+    background: #2C3238; 
+    opacity: 1; 
+    cursor: pointer;
+    outline: none;
+}
+.butt{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    outline: none;
+}
+.button_div{
+    width: 500px;
+    height: 250px;
+    margin-right: 90px;
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    outline: none;
+}
+.d{
+    width: 380px;
+    height: 100px;
+    margin-left: 55px;
+}
+.button_div h1{
+    font-size: 25px; 
+    margin-top: 50px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+.button_div small{
+    font-size:12px; 
+    margin-top: 15px; 
+    color: white;
+    cursor: pointer;
+    outline: none;   
+}
+.button_div button{
+    width: 200px;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 140px;
+    cursor: pointer;
+    outline: none;    
+}
+.verch{
+    height: 180px;
+    background: #708090;
+}
+.verch_div{
+    height: 180px;
+    display: flex;
+    justify-content: center;
+}
+.mechi_div{
+    width: 450px;
+    height: 160px;
+     /* border: 1px solid;  */
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.mechi_div small{
+    font-size: 12px;     
+}
+.mechi_div h1{
+    font-size: 25px;
+    margin-right: 30px;   
+}
+.mechi_div h2{
+    font-size: 12px;
+    margin-top: -5px;
+    margin-right: 30px;  
+}
+.mechi_div h3{
+    font-size: 12px;
+    margin-top: 5px; 
+    margin-right: 30px;   
+}
